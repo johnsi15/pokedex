@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Pokedex</title>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+		<article>
+			<h2>Pokedex para Mejorandola</h2>
+			Realizada por: John Andrey S.
+			<p>
+				<a href="https://github.com/johnsi15"><img src="img/gitHub.jpg" alt="Codigo"></a>
+				<a href="http://twitter.com/jandrey15"><img src="img/twitter.jpg" alt="Autor"></a>
+				<a href="https://cursos.mejorando.la/programacion-basica/"><img src="img/mejorandola.png" alt="Universidad"></a>
+				</p>
+		</article>
+	<div id="contenido">
+		<div id="listaPokemones">
+			<h2>Escoje un Pokemon</h2>
+			<input type="button" id="pokemon" onclick="nombrePokemon('Pikachu');" value="Pikachu"></input><br>
+			<input type="button" id="pokemon" onclick="nombrePokemon('Charizard');"value="Charizard"></input><br>
+			<input type="button" id="pokemon" onclick="nombrePokemon('Suicune');" value="Suicune"></input><br>	
+			<input type="button" id="pokemon" onclick="nombrePokemon('Entei');" value="Entei"></input><br>		
+		</div>
+		<div id="pokedex">
+			<div><img src="" id="imagen"></div>
+			<p id="datosPokemon"></p>
+		</div>
+	</div>
+	<div id="efecto" style="display:none" onclick="quitarEfecto();"> </div>
+</body>
+</html>
